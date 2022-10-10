@@ -1,0 +1,79 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #c1fcdf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.Background {
+	background-color: white;
+	padding: 5px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 5px;
+}
+
+.DisplayPanel {
+	display: flex;
+	margin: 10px 0;
+	height: 40px;
+	width: 100%;
+	justify-content: center;
+}
+
+.InputDisplay {
+	height: 100%;
+	width: 60%;
+	background-color: lightgoldenrodyellow;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.ResultDisplay {
+	height: 100%;
+	width: 40%;
+	background-color: lightskyblue;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.DisplayPanel p {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	margin-left: auto;
+	padding-right: 5px;
+}
+
+button {
+	background-color: lightsalmon;
+	min-width: 40px;
+	min-height: 30px;
+	margin: 6px;
+	box-sizing: border-box;
+	border-style: none;
+}
+
+.FirstRow {
+	display: flex;
+	justify-content: end;
+}
+
+.ClearButton {
+	width: 100%;
+}
